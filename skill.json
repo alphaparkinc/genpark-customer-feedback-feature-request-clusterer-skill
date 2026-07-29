@@ -1,0 +1,28 @@
+{
+  "name": "genpark-customer-feedback-feature-request-clusterer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Customer feedback & feature request clustering engine.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "customer-feedback",
+    "feature-clustering",
+    "product-insights",
+    "nlp"
+  ],
+  "inputs": {
+    "feedback_entries": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "top_feature_clusters": {
+      "type": "array"
+    },
+    "total_analyzed": {
+      "type": "integer"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
